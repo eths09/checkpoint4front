@@ -1,7 +1,7 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import Home from '../src/components/Home'
-import Café from '../src/components/Café'
+import Café from '../src/components/Café.jsx'
 import MachineCafé from '../src/components/MachineCafé'
 
 function App() {
