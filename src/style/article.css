@@ -1,0 +1,12 @@
+.allArticles {
+  height: 100%;
+  border-style: groove;
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  border-color: rgba(218, 165, 32, 0.582);
+}
+.particle {
+  align-items: center;
+  padding: 0;
+}

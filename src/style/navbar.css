@@ -2,3 +2,16 @@ ul {
   display: flex;
   justify-content: space-around;
 }
+NavBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

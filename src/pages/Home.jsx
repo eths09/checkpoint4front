@@ -1,13 +1,15 @@
-import NavBar from '../components/NavBar'
 import '../style/home.css'
 import logo from '../img/coffeeLogo.png'
 import seed from '../img/coffeeSeed.png'
 import grinder from '../img/coffeeGrinder.png'
 import coffeeCode from '../img/coffeeCode.png'
+import Form from '../components/Form'
+import Article from '../components/Article'
+import image1 from '../img/article1.jpg'
+import image2 from '../img/cappuccino.jpg'
 const Home = () => {
   return (
     <div className="allhome">
-      <NavBar />
       <div className="logocontainer">
         <img className="logo" src={logo} />
         <h1>Bienvenue</h1>
@@ -78,6 +80,15 @@ const Home = () => {
         </p>
         <img className="imgc" src={coffeeCode} />
       </div>
+      <div className="articleContainer">
+        <Article img={image1} />
+        <Article img={image2} />
+      </div>
+
+      <div className="h2container">
+        <h2>si vous avez besoin de plus d'information inscrivez-vous ici </h2>
+      </div>
+      <Form />
     </div>
   )
 }
