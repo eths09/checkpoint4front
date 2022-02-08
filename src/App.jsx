@@ -1,18 +1,21 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Home from '../src/components/Home'
-import Café from '../src/components/Café'
-import MachineCafé from '../src/components/MachineCafé'
+import Home from './pages/Home'
+import Café from './pages/Café'
+import MachineCafé from './pages/MachineCafé'
+import NavBar from './components/NavBar'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div>
+      <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Café" element={<Café />} />
-        <Route path="/MachineCafé" element={<MachineCafé />} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/Cafe" element={<Café />} />
+        <Route path="/Machinecafe" element={<MachineCafé />} />
       </Routes>
     </div>
   )
 }
+
 export default App

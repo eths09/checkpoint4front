@@ -1,0 +1,13 @@
+ul.machinelist {
+  display: flex;
+  flex-direction: column;
+  background: none;
+}
+
+.limachine {
+  margin-bottom: 3em;
+  border-style: groove;
+}
+p {
+  padding: 0;
+}

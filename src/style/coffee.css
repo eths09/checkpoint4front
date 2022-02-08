@@ -1,0 +1,19 @@
+.allcoffee {
+  margin: 5em;
+  width: 20em;
+  height: 20em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.pcoffee {
+  height: 1em;
+  padding: 0;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.imgcoffee {
+  width: 100%;
+  height: 100%;
+}
