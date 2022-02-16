@@ -7,10 +7,22 @@ import lugat from '../img/coffeelugat.jpg'
 
 const Café = () => {
   return (
-    <div className="allcafé">
-      <Coffee name="Lobodis" img={lobodis} price="12" />
-      <Coffee name="Lavazza" img={lavazza} price="8" />
-      <Coffee name="Lugat" img={lugat} price="25" />
+    <div className="allcafécontainer">
+      <div className="allcafé">
+        <Coffee name="Lobodis" img={lobodis} price="12" />
+        <Coffee name="Lavazza" img={lavazza} price="8" />
+        <Coffee name="Lugat" img={lugat} price="25" />
+      </div>
+      <div className="allcafé">
+        <Coffee name="Lobodis" img={lobodis} price="12" />
+        <Coffee name="Lavazza" img={lavazza} price="8" />
+        <Coffee name="Lugat" img={lugat} price="25" />
+      </div>
+      <div className="allcafé">
+        <Coffee name="Lobodis" img={lobodis} price="12" />
+        <Coffee name="Lavazza" img={lavazza} price="8" />
+        <Coffee name="Lugat" img={lugat} price="25" />
+      </div>
     </div>
   )
 }

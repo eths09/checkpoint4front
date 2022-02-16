@@ -1,13 +1,68 @@
 ul.machinelist {
+  width: 24em;
   display: flex;
   flex-direction: column;
   background: none;
 }
-
+li {
+  margin-bottom: -5px;
+}
 .limachine {
+  width: 18.8em;
   margin-bottom: 3em;
   border-style: groove;
 }
 p {
-  padding: 0;
+}
+.nameContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(58, 45, 29);
+  color: aliceblue;
+}
+.imgMachineContainer {
+  width: 100%;
+  display: flex;
+}
+.imgMachine {
+  width: 18.9em;
+}
+.brandContainer {
+  width: 100%;
+  height: 3.2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: aliceblue;
+  background-color: rgb(58, 45, 29);
+}
+.descriptionMachineContainer {
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(58, 45, 29);
+}
+.brandTextContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.brandText {
+  width: 4em;
+}
+.machinename {
+  text-align: center;
+  width: 100%;
+}
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 7em;
+  background-color: goldenrod;
+}
+.price {
+  text-align: center;
 }

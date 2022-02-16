@@ -69,7 +69,7 @@ h1 {
 h1 {
   margin: 0;
 }
-p {
+.pHome {
   margin: 0;
   padding: 50px;
   font-size: x-large;
@@ -83,10 +83,18 @@ p {
   display: flex;
   justify-content: center;
 }
-
+p.particle {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #d3ae7eb8;
+}
 .articleContainer {
   display: flex;
   justify-content: space-around;
   margin-top: 6em;
   margin-bottom: 10em;
+}
+button {
+  color: brown;
 }

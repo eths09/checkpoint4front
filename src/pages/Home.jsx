@@ -3,7 +3,7 @@ import logo from '../img/coffeeLogo.png'
 import seed from '../img/coffeeSeed.png'
 import grinder from '../img/coffeeGrinder.png'
 import coffeeCode from '../img/coffeeCode.png'
-import Form from '../components/Form'
+import Mail from '../components/Mail'
 import Article from '../components/Article'
 import image1 from '../img/article1.jpg'
 import image2 from '../img/cappuccino.jpg'
@@ -15,7 +15,7 @@ const Home = () => {
         <h1>Bienvenue</h1>
       </div>
       <div className="seedcontainer">
-        <p>
+        <p className="pHome">
           {' '}
           Récolte : <br />
           <br />
@@ -44,7 +44,7 @@ const Home = () => {
       </div>
       <div className="grindercontainer">
         <img className="imgc" src={grinder} />
-        <p>
+        <p className="pHome">
           Mouture : <br />
           <br />A l’inverse du vin, le café moulu ne se bonifie pas avec le
           temps. Après ouverture, le café déjà moulu se consomme généralement
@@ -62,7 +62,7 @@ const Home = () => {
         </p>
       </div>
       <div className="coffeecodecontainer">
-        <p>
+        <p className="pHome">
           Méthode : <br />
           <br /> Il existe de nombreuses manières de préparer la boisson. Le
           café instantané est l'une d'elles ; les autres méthodes sont plus
@@ -88,7 +88,7 @@ const Home = () => {
       <div className="h2container">
         <h2>si vous avez besoin de plus d'information inscrivez-vous ici </h2>
       </div>
-      <Form />
+      <Mail />
     </div>
   )
 }

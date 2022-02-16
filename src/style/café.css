@@ -1,4 +1,23 @@
+.allcafécontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .allcafé {
+  margin-bottom: 2em;
+  width: 80%;
   display: flex;
   justify-content: space-around;
+  border-style: solid;
+  border-radius: 31px;
+  background: linear-gradient(#2a61a547, white);
+  border-color: goldenrod;
+}
+.allcoffee {
+  width: 11em;
+}
+.imgcoffee {
+  border-top-left-radius: 52px;
+  border-top-right-radius: 17px;
 }
